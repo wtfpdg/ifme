@@ -24,9 +24,13 @@ database.yml
 /config/env/test.env
 /config/env/development.env
 
+# Ignore IDE's specific files
+.idea/
+
 # Ignore coverage results
 /coverage
 
 # Ignore auto-generated translations.js
 /public/javascripts/translations.js
 
+log/
